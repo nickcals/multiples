@@ -3231,7 +3231,7 @@
       }
     }
   },
-  "generated_at": "2026-06-03T07:25:04.717848Z",
+  "generated_at": "2026-06-07T07:25:01.669602Z",
   "min_n_per_cell": 10,
   "schema_version": "1",
   "source": "data/transactions/consolidated-database.json",
