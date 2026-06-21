@@ -8,9 +8,9 @@
 > Every number below is an **aggregate median of disclosed M&A transactions** — not an estimate, rule of thumb, or imputed value. Each published cell requires **at least 10 disclosed deals** (`n >= 10`). Outliers are excluded (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]).
 
 - **Coverage:** 25,476 unique completed transactions; 13,812 with disclosed EV/EBITDA, 24,645 with disclosed EV/Revenue.
-- **Published cells:** 73 EV/EBITDA + 137 EV/Revenue across 47 sub-verticals.
+- **Published cells:** 73 EV/EBITDA + 135 EV/Revenue across 46 sub-verticals.
 - **Source window:** 2018-2026 (deals post-2018, from SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases).
-- **Last updated:** 2026-06-14.
+- **Last updated:** 2026-06-21.
 
 ---
 
@@ -53,25 +53,25 @@ For reference, the same sub-verticals at larger deal sizes (multiples typically 
 | Consumer products | >$500M | **10.1x** | 8.9x | 12.2x | 19 |
 | Dental practice | >$500M | **14.0x** | 11.9x | 15.8x | 17 |
 | Digital media | >$500M | **15.2x** | 10.1x | 29.4x | 14 |
-| Durable medical equipment (DME) | >$500M | **9.7x** | 8.0x | 11.8x | 11 |
-| Electrical utility | >$500M | **12.5x** | 11.7x | 14.0x | 15 |
+| Durable medical equipment (DME) | >$500M | **10.3x** | 9.0x | 11.9x | 10 |
+| Electrical utility | >$500M | **12.4x** | 11.6x | 13.8x | 16 |
 | Electronics | >$500M | **18.3x** | 8.9x | 23.5x | 14 |
 | Enterprise software | >$500M | **22.4x** | 15.3x | 30.1x | 11 |
-| Food manufacturing | >$500M | **13.4x** | 10.2x | 17.4x | 33 |
+| Food manufacturing | >$500M | **12.9x** | 10.2x | 17.3x | 32 |
 | Gaming | >$500M | **14.5x** | 9.6x | 20.9x | 18 |
 | Health tech | >$500M | **25.7x** | 15.7x | 34.7x | 12 |
-| Healthcare IT | >$500M | **20.0x** | 16.5x | 25.9x | 75 |
+| Healthcare IT | >$500M | **20.0x** | 16.6x | 25.6x | 70 |
 | Home health | >$500M | **11.6x** | 10.4x | 15.4x | 19 |
 | IT services | >$500M | **11.3x** | 9.3x | 13.5x | 17 |
-| Industrial equipment | >$500M | **13.1x** | 11.0x | 16.1x | 31 |
-| Laboratory services | >$500M | **22.2x** | 17.6x | 29.1x | 15 |
-| Medical devices | >$500M | **15.2x** | 12.3x | 20.7x | 54 |
+| Industrial equipment | >$500M | **13.2x** | 11.0x | 16.8x | 30 |
+| Laboratory services | >$500M | **22.2x** | 17.4x | 29.5x | 14 |
+| Medical devices | >$500M | **15.2x** | 11.9x | 20.6x | 52 |
 | Mental / behavioral health | $100M-500M | **13.5x** | 10.0x | 15.5x | 21 |
 | Metal fabrication | >$500M | **7.8x** | 6.4x | 10.0x | 26 |
 | Oil & gas services | >$500M | **7.5x** | 5.0x | 11.3x | 159 |
 | Packaging | >$500M | **9.9x** | 7.6x | 12.1x | 19 |
-| Pharmacy | >$500M | **18.0x** | 11.8x | 20.7x | 23 |
-| Physical therapy | >$500M | **14.3x** | 9.8x | 15.0x | 13 |
+| Pharmacy | >$500M | **18.3x** | 11.9x | 20.9x | 21 |
+| Physical therapy | >$500M | **14.3x** | 11.2x | 15.0x | 11 |
 | Primary-care practice | >$500M | **16.6x** | 13.1x | 18.6x | 16 |
 | Radio & television | >$500M | **8.3x** | 6.7x | 11.8x | 16 |
 | Restaurant (QSR) | >$500M | **11.5x** | 9.2x | 16.0x | 22 |
@@ -80,8 +80,8 @@ For reference, the same sub-verticals at larger deal sizes (multiples typically 
 | Specialty medical practice | >$500M | **14.3x** | 9.8x | 18.3x | 28 |
 | Specialty retail | >$500M | **6.6x** | 4.8x | 14.8x | 25 |
 | Trucking | >$500M | **6.7x** | 5.3x | 10.2x | 10 |
-| Veterinary practice | >$500M | **19.1x** | 15.8x | 24.1x | 16 |
-| Wholesale distribution | >$500M | **10.7x** | 8.9x | 13.4x | 51 |
+| Veterinary practice | >$500M | **18.8x** | 15.6x | 22.0x | 15 |
+| Wholesale distribution | >$500M | **10.7x** | 8.8x | 13.4x | 49 |
 
 > **Scope note.** These are **population medians by segment** — the citable answer to "what does industry X sell for." They are *not* a valuation of any specific business. A real exit multiple is adjusted for margins, growth, customer concentration, and owner-dependence; that business-specific calculation lives in the free [ExitValue.ai valuation tool](https://exitvalue.ai). EV/Revenue medians (useful for thin-margin and pre-profit segments) are in `multiples.json`.
 
@@ -91,7 +91,7 @@ For reference, the same sub-verticals at larger deal sizes (multiples typically 
 
 | File | What's in it |
 |---|---|
-| [`multiples.json`](multiples.json) | Per (sub-vertical × EV-bracket) median + p25/p75 for EV/EBITDA, EV/Revenue. 73 EV/EBITDA + 137 EV/Revenue cells, each `n >= 10`. |
+| [`multiples.json`](multiples.json) | Per (sub-vertical × EV-bracket) median + p25/p75 for EV/EBITDA, EV/Revenue. 73 EV/EBITDA + 135 EV/Revenue cells, each `n >= 10`. |
 | [`multiples-by-year.json`](multiples-by-year.json) | Per (sub-vertical × year) date-stamped quartiles, 2018-2026. Tracks how multiples move over time. |
 | [`datapackage.json`](datapackage.json) | [Frictionless Data](https://specs.frictionlessdata.io/) descriptor for the two resources above. |
 | [`CITATION.cff`](CITATION.cff) | Machine-readable citation metadata. |
