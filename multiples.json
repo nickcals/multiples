@@ -21,9 +21,9 @@
     "aerospace": {
       "100m_500m_ev": {
         "ev_revenue": {
-          "n": 23,
-          "p25": 1.36,
-          "p50": 2.43,
+          "n": 24,
+          "p25": 1.35,
+          "p50": 2.38,
           "p75": 3.06
         }
       },
@@ -1371,10 +1371,10 @@
           "p75": 39.63
         },
         "ev_revenue": {
-          "n": 107,
-          "p25": 4.53,
-          "p50": 7.39,
-          "p75": 10.47
+          "n": 108,
+          "p25": 4.46,
+          "p50": 7.25,
+          "p75": 10.36
         }
       },
       "under_5m_ev": {
@@ -1621,7 +1621,7 @@
       }
     }
   },
-  "generated_at": "2026-06-21T03:30:08Z",
+  "generated_at": "2026-06-28T03:30:08Z",
   "license": "MIT (code) / CC-BY 4.0 (data). Cite https://exitvalue.ai if used in publications.",
   "methodology": "Aggregate medians/quartiles of disclosed M&A multiples by sub-vertical x EV-bracket. Only post-2018 deals from SEC EDGAR + verified press releases. Cells require n >= 10 per metric. Outliers (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]) excluded. Sub-verticals tagged 'other' or 'other-*' excluded.",
   "min_cell_n": 10,

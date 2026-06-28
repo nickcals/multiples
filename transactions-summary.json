@@ -1,14 +1,14 @@
 {
   "name": "ExitValue.ai M&A Transaction Database \u2014 Aggregate Summary",
-  "description": "Anonymized aggregate statistics from 25,476 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
+  "description": "Anonymized aggregate statistics from 25,479 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
   "creator": "ExitValue.ai",
   "url": "https://exitvalue.ai/methodology",
   "license": "https://exitvalue.ai/terms",
   "citation": "ExitValue.ai. (2026). M&A Transaction Database. https://exitvalue.ai/methodology",
   "metrics": {
-    "total_unique_transactions": 25476,
-    "deals_with_disclosed_ev_ebitda": 13812,
-    "deals_with_disclosed_ev_revenue": 24645,
+    "total_unique_transactions": 25479,
+    "deals_with_disclosed_ev_ebitda": 13814,
+    "deals_with_disclosed_ev_revenue": 24648,
     "year_range": [
       1977,
       2026
@@ -44,16 +44,16 @@
       "enterprise_count": 17
     },
     "aerospace": {
-      "total_deals": 210,
-      "recent_2024_count": 7,
-      "median_deal_size_m": 313.8,
+      "total_deals": 211,
+      "recent_2024_count": 8,
+      "median_deal_size_m": 312.9,
       "median_ev_ebitda": 10.6,
       "p25_ev_ebitda": 7.6,
       "p75_ev_ebitda": 14.3,
       "pe_share_pct": 41,
       "strategic_share_pct": 59,
       "smb_count": 28,
-      "midmarket_count": 95,
+      "midmarket_count": 96,
       "enterprise_count": 87
     },
     "ag-services": {
@@ -993,16 +993,16 @@
       "enterprise_count": 32
     },
     "solar": {
-      "total_deals": 27,
-      "recent_2024_count": 3,
-      "median_deal_size_m": 762.4,
-      "median_ev_ebitda": 17.1,
-      "p25_ev_ebitda": 12.1,
-      "p75_ev_ebitda": 22.0,
+      "total_deals": 28,
+      "recent_2024_count": 4,
+      "median_deal_size_m": 747.9,
+      "median_ev_ebitda": 17.0,
+      "p25_ev_ebitda": 11.0,
+      "p75_ev_ebitda": 21.6,
       "pe_share_pct": 40,
       "strategic_share_pct": 60,
       "smb_count": 2,
-      "midmarket_count": 10,
+      "midmarket_count": 11,
       "enterprise_count": 15
     },
     "specialty-contractor": {
@@ -1137,5 +1137,5 @@
     }
   },
   "schema_version": "1.0",
-  "last_updated": "2026-06-21"
+  "last_updated": "2026-06-28"
 }
