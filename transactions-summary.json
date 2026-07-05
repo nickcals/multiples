@@ -1,14 +1,14 @@
 {
   "name": "ExitValue.ai M&A Transaction Database \u2014 Aggregate Summary",
-  "description": "Anonymized aggregate statistics from 25,479 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
+  "description": "Anonymized aggregate statistics from 25,480 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
   "creator": "ExitValue.ai",
   "url": "https://exitvalue.ai/methodology",
   "license": "https://exitvalue.ai/terms",
   "citation": "ExitValue.ai. (2026). M&A Transaction Database. https://exitvalue.ai/methodology",
   "metrics": {
-    "total_unique_transactions": 25479,
-    "deals_with_disclosed_ev_ebitda": 13814,
-    "deals_with_disclosed_ev_revenue": 24648,
+    "total_unique_transactions": 25480,
+    "deals_with_disclosed_ev_ebitda": 13815,
+    "deals_with_disclosed_ev_revenue": 24649,
     "year_range": [
       1977,
       2026
@@ -499,17 +499,17 @@
       "enterprise_count": 97
     },
     "infrastructure": {
-      "total_deals": 12,
-      "recent_2024_count": 1,
-      "median_deal_size_m": 756.9,
-      "median_ev_ebitda": 21.4,
-      "p25_ev_ebitda": 6.5,
-      "p75_ev_ebitda": 31.9,
+      "total_deals": 13,
+      "recent_2024_count": 2,
+      "median_deal_size_m": 1213.7,
+      "median_ev_ebitda": 17.3,
+      "p25_ev_ebitda": 6.6,
+      "p75_ev_ebitda": 30.9,
       "pe_share_pct": 0,
       "strategic_share_pct": 100,
       "smb_count": 1,
       "midmarket_count": 5,
-      "enterprise_count": 6
+      "enterprise_count": 7
     },
     "insurance-agency": {
       "total_deals": 8,
@@ -1137,5 +1137,5 @@
     }
   },
   "schema_version": "1.0",
-  "last_updated": "2026-06-28"
+  "last_updated": "2026-07-05"
 }

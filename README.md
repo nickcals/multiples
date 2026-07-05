@@ -7,10 +7,10 @@
 
 > Every number below is an **aggregate median of disclosed M&A transactions** — not an estimate, rule of thumb, or imputed value. Each published cell requires **at least 10 disclosed deals** (`n >= 10`). Outliers are excluded (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]).
 
-- **Coverage:** 25,479 unique completed transactions; 13,814 with disclosed EV/EBITDA, 24,648 with disclosed EV/Revenue.
+- **Coverage:** 25,480 unique completed transactions; 13,815 with disclosed EV/EBITDA, 24,649 with disclosed EV/Revenue.
 - **Published cells:** 73 EV/EBITDA + 135 EV/Revenue across 46 sub-verticals.
 - **Source window:** 2018-2026 (deals post-2018, from SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases).
-- **Last updated:** 2026-06-28.
+- **Last updated:** 2026-07-05.
 
 ---
 
