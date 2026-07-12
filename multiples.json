@@ -821,10 +821,10 @@
     "laboratory-services": {
       "100m_500m_ev": {
         "ev_revenue": {
-          "n": 30,
+          "n": 31,
           "p25": 1.52,
           "p50": 2.1,
-          "p75": 3.45
+          "p75": 3.6
         }
       },
       "25m_100m_ev": {
@@ -1351,16 +1351,16 @@
       },
       "5m_25m_ev": {
         "ev_ebitda": {
-          "n": 15,
+          "n": 16,
           "p25": 8.7,
-          "p50": 11.14,
-          "p75": 19.33
+          "p50": 10.97,
+          "p75": 19.15
         },
         "ev_revenue": {
-          "n": 60,
-          "p25": 0.92,
-          "p50": 2.17,
-          "p75": 3.44
+          "n": 61,
+          "p25": 0.89,
+          "p50": 2.15,
+          "p75": 3.38
         }
       },
       "over_500m_ev": {
@@ -1621,7 +1621,7 @@
       }
     }
   },
-  "generated_at": "2026-07-05T03:30:08Z",
+  "generated_at": "2026-07-12T03:30:08Z",
   "license": "MIT (code) / CC-BY 4.0 (data). Cite https://exitvalue.ai if used in publications.",
   "methodology": "Aggregate medians/quartiles of disclosed M&A multiples by sub-vertical x EV-bracket. Only post-2018 deals from SEC EDGAR + verified press releases. Cells require n >= 10 per metric. Outliers (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]) excluded. Sub-verticals tagged 'other' or 'other-*' excluded.",
   "min_cell_n": 10,

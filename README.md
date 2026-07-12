@@ -7,10 +7,10 @@
 
 > Every number below is an **aggregate median of disclosed M&A transactions** — not an estimate, rule of thumb, or imputed value. Each published cell requires **at least 10 disclosed deals** (`n >= 10`). Outliers are excluded (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]).
 
-- **Coverage:** 25,480 unique completed transactions; 13,815 with disclosed EV/EBITDA, 24,649 with disclosed EV/Revenue.
+- **Coverage:** 25,482 unique completed transactions; 13,816 with disclosed EV/EBITDA, 24,651 with disclosed EV/Revenue.
 - **Published cells:** 73 EV/EBITDA + 135 EV/Revenue across 46 sub-verticals.
 - **Source window:** 2018-2026 (deals post-2018, from SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases).
-- **Last updated:** 2026-07-05.
+- **Last updated:** 2026-07-12.
 
 ---
 
@@ -35,7 +35,7 @@ These are **median EV/EBITDA exit multiples** for **small-business and lower-mid
 | Medical devices | $25M-100M | **12.7x** | 9.1x | 21.9x | 14 |
 | Oil & gas services | $25M-100M | **3.7x** | 2.2x | 7.5x | 15 |
 | Primary-care practice | <$5M | **3.6x** | 3.4x | 4.6x | 11 |
-| SaaS | $5M-25M | **11.1x** | 8.7x | 19.3x | 15 |
+| SaaS | $5M-25M | **11.0x** | 8.7x | 19.1x | 16 |
 | SaaS | $25M-100M | **15.5x** | 5.9x | 19.1x | 11 |
 | Specialty medical practice | $5M-25M | **5.9x** | 5.1x | 8.2x | 15 |
 | Wholesale distribution | $25M-100M | **6.8x** | 4.8x | 8.7x | 17 |

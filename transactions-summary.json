@@ -1,14 +1,14 @@
 {
   "name": "ExitValue.ai M&A Transaction Database \u2014 Aggregate Summary",
-  "description": "Anonymized aggregate statistics from 25,480 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
+  "description": "Anonymized aggregate statistics from 25,482 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
   "creator": "ExitValue.ai",
   "url": "https://exitvalue.ai/methodology",
   "license": "https://exitvalue.ai/terms",
   "citation": "ExitValue.ai. (2026). M&A Transaction Database. https://exitvalue.ai/methodology",
   "metrics": {
-    "total_unique_transactions": 25480,
-    "deals_with_disclosed_ev_ebitda": 13815,
-    "deals_with_disclosed_ev_revenue": 24649,
+    "total_unique_transactions": 25482,
+    "deals_with_disclosed_ev_ebitda": 13816,
+    "deals_with_disclosed_ev_revenue": 24651,
     "year_range": [
       1977,
       2026
@@ -967,15 +967,15 @@
       "enterprise_count": 60
     },
     "saas": {
-      "total_deals": 491,
-      "recent_2024_count": 21,
-      "median_deal_size_m": 133.1,
+      "total_deals": 492,
+      "recent_2024_count": 22,
+      "median_deal_size_m": 132.8,
       "median_ev_ebitda": 14.7,
       "p25_ev_ebitda": 8.7,
       "p75_ev_ebitda": 25.0,
       "pe_share_pct": 31,
       "strategic_share_pct": 69,
-      "smb_count": 108,
+      "smb_count": 109,
       "midmarket_count": 253,
       "enterprise_count": 130
     },
@@ -1137,5 +1137,5 @@
     }
   },
   "schema_version": "1.0",
-  "last_updated": "2026-07-05"
+  "last_updated": "2026-07-12"
 }
