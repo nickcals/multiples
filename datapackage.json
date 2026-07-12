@@ -4,7 +4,7 @@
   "title": "SMB & Lower-Middle-Market M&A Valuation Multiples (ExitValue.ai)",
   "description": "Open dataset of median EV/EBITDA and EV/Revenue valuation multiples for small-business and lower-middle-market M&A, by sub-vertical and enterprise-value bracket, derived from 25,000+ real, verifiable transactions (SEC EDGAR 8-K/S-4 filings, fairness opinions, verified press releases). No estimated or imputed values; every cell requires n >= 10 disclosed deals. Source window: 2018-2026. Built and maintained by ExitValue.ai \u2014 full methodology at https://exitvalue.ai/methodology and the State of SMB & Mid-Market M&A report at https://exitvalue.ai/research",
   "homepage": "https://exitvalue.ai/methodology",
-  "version": "2026.07.05",
+  "version": "2026.07.12",
   "keywords": [
     "mergers-and-acquisitions",
     "valuation",
