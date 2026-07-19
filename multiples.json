@@ -721,16 +721,16 @@
       },
       "over_500m_ev": {
         "ev_ebitda": {
-          "n": 30,
-          "p25": 10.96,
-          "p50": 13.18,
-          "p75": 16.77
+          "n": 31,
+          "p25": 10.85,
+          "p50": 13.12,
+          "p75": 16.12
         },
         "ev_revenue": {
-          "n": 40,
+          "n": 41,
           "p25": 1.48,
-          "p50": 2.27,
-          "p75": 3.07
+          "p50": 2.18,
+          "p75": 3.04
         }
       },
       "under_5m_ev": {
@@ -745,10 +745,10 @@
     "insurance-agency": {
       "over_500m_ev": {
         "ev_revenue": {
-          "n": 26,
-          "p25": 4.25,
+          "n": 27,
+          "p25": 3.73,
           "p50": 5.53,
-          "p75": 6.0
+          "p75": 5.99
         }
       }
     },
@@ -1329,9 +1329,9 @@
           "p75": 27.2
         },
         "ev_revenue": {
-          "n": 73,
-          "p25": 2.39,
-          "p50": 4.56,
+          "n": 74,
+          "p25": 2.27,
+          "p50": 4.52,
           "p75": 7.22
         }
       },
@@ -1621,7 +1621,7 @@
       }
     }
   },
-  "generated_at": "2026-07-12T03:30:08Z",
+  "generated_at": "2026-07-19T03:30:08Z",
   "license": "MIT (code) / CC-BY 4.0 (data). Cite https://exitvalue.ai if used in publications.",
   "methodology": "Aggregate medians/quartiles of disclosed M&A multiples by sub-vertical x EV-bracket. Only post-2018 deals from SEC EDGAR + verified press releases. Cells require n >= 10 per metric. Outliers (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]) excluded. Sub-verticals tagged 'other' or 'other-*' excluded.",
   "min_cell_n": 10,

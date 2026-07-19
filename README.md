@@ -7,10 +7,10 @@
 
 > Every number below is an **aggregate median of disclosed M&A transactions** — not an estimate, rule of thumb, or imputed value. Each published cell requires **at least 10 disclosed deals** (`n >= 10`). Outliers are excluded (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]).
 
-- **Coverage:** 25,482 unique completed transactions; 13,816 with disclosed EV/EBITDA, 24,651 with disclosed EV/Revenue.
+- **Coverage:** 25,487 unique completed transactions; 13,819 with disclosed EV/EBITDA, 24,656 with disclosed EV/Revenue.
 - **Published cells:** 73 EV/EBITDA + 135 EV/Revenue across 46 sub-verticals.
 - **Source window:** 2018-2026 (deals post-2018, from SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases).
-- **Last updated:** 2026-07-12.
+- **Last updated:** 2026-07-19.
 
 ---
 
@@ -63,7 +63,7 @@ For reference, the same sub-verticals at larger deal sizes (multiples typically 
 | Healthcare IT | >$500M | **20.0x** | 16.6x | 25.6x | 70 |
 | Home health | >$500M | **11.6x** | 10.4x | 15.4x | 19 |
 | IT services | >$500M | **11.3x** | 9.3x | 13.5x | 17 |
-| Industrial equipment | >$500M | **13.2x** | 11.0x | 16.8x | 30 |
+| Industrial equipment | >$500M | **13.1x** | 10.8x | 16.1x | 31 |
 | Laboratory services | >$500M | **22.2x** | 17.4x | 29.5x | 14 |
 | Medical devices | >$500M | **15.2x** | 11.9x | 20.6x | 52 |
 | Mental / behavioral health | $100M-500M | **13.5x** | 10.0x | 15.5x | 21 |
