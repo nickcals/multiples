@@ -10,7 +10,7 @@
 - **Coverage:** 25,487 unique completed transactions; 13,819 with disclosed EV/EBITDA, 24,656 with disclosed EV/Revenue.
 - **Published cells:** 73 EV/EBITDA + 135 EV/Revenue across 46 sub-verticals.
 - **Source window:** 2018-2026 (deals post-2018, from SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases).
-- **Last updated:** 2026-07-26.
+- **Last updated:** 2026-08-02.
 
 ---
 

@@ -1621,7 +1621,7 @@
       }
     }
   },
-  "generated_at": "2026-07-26T03:30:09Z",
+  "generated_at": "2026-08-02T03:30:08Z",
   "license": "MIT (code) / CC-BY 4.0 (data). Cite https://exitvalue.ai if used in publications.",
   "methodology": "Aggregate medians/quartiles of disclosed M&A multiples by sub-vertical x EV-bracket. Only post-2018 deals from SEC EDGAR + verified press releases. Cells require n >= 10 per metric. Outliers (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]) excluded. Sub-verticals tagged 'other' or 'other-*' excluded.",
   "min_cell_n": 10,
