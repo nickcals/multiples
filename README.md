@@ -5,6 +5,8 @@
 
 **An open, continuously-updated index of real-world M&A valuation multiples** (EV/EBITDA and EV/Revenue), broken out by **sub-vertical** and **enterprise-value bracket**. Built and maintained by [ExitValue.ai](https://exitvalue.ai).
 
+> **Want a number for a specific business?** This dataset gives population medians. The free calculator at exitvalue.ai applies them to your revenue/EBITDA, size and industry: [Value a business →](https://exitvalue.ai/valuate?src=dataset-github)
+
 > Every number below is an **aggregate median of disclosed M&A transactions** — not an estimate, rule of thumb, or imputed value. Each published cell requires **at least 10 disclosed deals** (`n >= 10`). Outliers are excluded (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]).
 
 - **Coverage:** 25,487 unique completed transactions; 13,819 with disclosed EV/EBITDA, 24,656 with disclosed EV/Revenue.
