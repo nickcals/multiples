@@ -22,22 +22,22 @@ These are **median EV/EBITDA exit multiples** for **small-business and lower-mid
 
 | Sub-vertical | EV bracket | Median EV/EBITDA | p25 | p75 | n (deals) |
 |---|---|---|---|---|---|
-| Ambulatory surgery center (ASC) | $5M-25M | **8.1x** | 5.5x | 11.4x | 20 |
-| Ambulatory surgery center (ASC) | $25M-100M | **9.1x** | 6.7x | 12.3x | 10 |
-| Dental practice | $5M-25M | **7.0x** | 6.5x | 8.3x | 10 |
-| Durable medical equipment (DME) | <$5M | **5.3x** | 4.3x | 7.0x | 11 |
-| Durable medical equipment (DME) | $5M-25M | **5.0x** | 4.7x | 5.7x | 12 |
-| Electronics | $25M-100M | **9.1x** | 6.7x | 18.4x | 10 |
-| Gaming | $25M-100M | **9.1x** | 5.1x | 11.6x | 10 |
-| Home health | <$5M | **4.7x** | 3.9x | 6.2x | 25 |
-| Industrial equipment | $25M-100M | **8.4x** | 6.2x | 11.3x | 18 |
-| Medical devices | $25M-100M | **12.7x** | 9.1x | 21.9x | 14 |
-| Oil & gas services | $25M-100M | **4.0x** | 2.2x | 9.1x | 13 |
-| Primary-care practice | <$5M | **3.6x** | 3.4x | 4.6x | 11 |
-| SaaS | $5M-25M | **10.7x** | 8.2x | 17.8x | 14 |
-| SaaS | $25M-100M | **12.8x** | 5.7x | 19.6x | 10 |
-| Specialty medical practice | $5M-25M | **5.9x** | 5.1x | 8.2x | 15 |
-| Wholesale distribution | $25M-100M | **6.2x** | 4.8x | 8.8x | 16 |
+| [Ambulatory surgery center (ASC)](https://exitvalue.ai/valuation/ambulatory-surgery-center) | $5M-25M | **8.1x** | 5.5x | 11.4x | 20 |
+| [Ambulatory surgery center (ASC)](https://exitvalue.ai/valuation/ambulatory-surgery-center) | $25M-100M | **9.1x** | 6.7x | 12.3x | 10 |
+| [Dental practice](https://exitvalue.ai/valuation/dental-practice) | $5M-25M | **7.0x** | 6.5x | 8.3x | 10 |
+| [Durable medical equipment (DME)](https://exitvalue.ai/valuation/medical-equipment) | <$5M | **5.3x** | 4.3x | 7.0x | 11 |
+| [Durable medical equipment (DME)](https://exitvalue.ai/valuation/medical-equipment) | $5M-25M | **5.0x** | 4.7x | 5.7x | 12 |
+| [Electronics](https://exitvalue.ai/valuation/electronics) | $25M-100M | **9.1x** | 6.7x | 18.4x | 10 |
+| [Gaming](https://exitvalue.ai/valuation/gaming) | $25M-100M | **9.1x** | 5.1x | 11.6x | 10 |
+| [Home health](https://exitvalue.ai/valuation/home-health) | <$5M | **4.7x** | 3.9x | 6.2x | 25 |
+| [Industrial equipment](https://exitvalue.ai/valuation/industrial-equipment) | $25M-100M | **8.4x** | 6.2x | 11.3x | 18 |
+| [Medical devices](https://exitvalue.ai/valuation/medical-devices) | $25M-100M | **12.7x** | 9.1x | 21.9x | 14 |
+| [Oil & gas services](https://exitvalue.ai/valuation/oil-gas-services) | $25M-100M | **4.0x** | 2.2x | 9.1x | 13 |
+| [Primary-care practice](https://exitvalue.ai/valuation/medical-practice-primary-care) | <$5M | **3.6x** | 3.4x | 4.6x | 11 |
+| [SaaS](https://exitvalue.ai/valuation/saas-software) | $5M-25M | **10.7x** | 8.2x | 17.8x | 14 |
+| [SaaS](https://exitvalue.ai/valuation/saas-software) | $25M-100M | **12.8x** | 5.7x | 19.6x | 10 |
+| [Specialty medical practice](https://exitvalue.ai/valuation/medical-practice) | $5M-25M | **5.9x** | 5.1x | 8.2x | 15 |
+| [Wholesale distribution](https://exitvalue.ai/valuation/wholesale-distribution) | $25M-100M | **6.2x** | 4.8x | 8.8x | 16 |
 
 ### Larger transactions (enterprise value $100M+)
 
