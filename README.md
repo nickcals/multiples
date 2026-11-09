@@ -13,6 +13,7 @@
 - **Published cells:** 61 EV/EBITDA + 118 EV/Revenue across 44 sub-verticals.
 - **Source window:** 2018-2026 (deals post-2018, from SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases).
 - **Last updated:** 2026-10-30.
+- **Browse by industry:** [nickcals.github.io/multiples](https://nickcals.github.io/multiples/), one page per industry.
 
 ---
 
