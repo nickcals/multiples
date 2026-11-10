@@ -78,6 +78,14 @@ For reference, the same sub-verticals at larger deal sizes (multiples typically 
 
 ---
 
+## Value a specific business
+
+The tables give medians for groups of deals. To get a range for one business, open the free calculator with your industry already selected (full disclosure: it's built by the publisher of this dataset):
+
+[Accounting / CPA firm](https://exitvalue.ai/valuate?industry=accounting-cpa&src=dataset-github-accounting-cpa) · [Ambulatory surgery center](https://exitvalue.ai/valuate?industry=ambulatory-surgery-center&src=dataset-github-ambulatory-surgery-center) · [Dental practice](https://exitvalue.ai/valuate?industry=dental-practice&src=dataset-github-dental-practice) · [Home health agency](https://exitvalue.ai/valuate?industry=home-health&src=dataset-github-home-health) · [HVAC company](https://exitvalue.ai/valuate?industry=hvac&src=dataset-github-hvac) · [Insurance agency](https://exitvalue.ai/valuate?industry=insurance-agency&src=dataset-github-insurance-agency) · [IT services / MSP](https://exitvalue.ai/valuate?industry=managed-services-msp&src=dataset-github-managed-services-msp) · [Pest control](https://exitvalue.ai/valuate?industry=pest-control&src=dataset-github-pest-control) · [Physical therapy](https://exitvalue.ai/valuate?industry=physical-therapy&src=dataset-github-physical-therapy) · [Plumbing company](https://exitvalue.ai/valuate?industry=plumbing&src=dataset-github-plumbing) · [Primary care practice](https://exitvalue.ai/valuate?industry=medical-practice-primary-care&src=dataset-github-medical-practice-primary-care) · [SaaS company](https://exitvalue.ai/valuate?industry=saas&src=dataset-github-saas) · [Veterinary practice](https://exitvalue.ai/valuate?industry=veterinary-practice&src=dataset-github-veterinary-practice)
+
+Any other industry: [exitvalue.ai/valuate](https://exitvalue.ai/valuate?src=dataset-github).
+
 ## Use it from ChatGPT, Claude or Cursor (MCP)
 
 The same medians are available through a free, read-only [MCP](https://modelcontextprotocol.io/) server, with no signup and no API key:
