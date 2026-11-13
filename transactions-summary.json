@@ -1,14 +1,14 @@
 {
   "name": "ExitValue.ai M&A Transaction Database \u2014 Aggregate Summary",
-  "description": "Anonymized aggregate statistics from 21,349 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
+  "description": "Anonymized aggregate statistics from 21,352 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
   "creator": "ExitValue.ai",
   "url": "https://exitvalue.ai/methodology",
   "license": "https://exitvalue.ai/terms",
   "citation": "ExitValue.ai. (2026). M&A Transaction Database. https://exitvalue.ai/methodology",
   "metrics": {
-    "total_unique_transactions": 21349,
-    "deals_with_disclosed_ev_ebitda": 11189,
-    "deals_with_disclosed_ev_revenue": 20597,
+    "total_unique_transactions": 21352,
+    "deals_with_disclosed_ev_ebitda": 11190,
+    "deals_with_disclosed_ev_revenue": 20600,
     "year_range": [
       1977,
       2026
@@ -967,17 +967,17 @@
       "enterprise_count": 12
     },
     "specialty-contractor": {
-      "total_deals": 142,
-      "recent_2024_count": 13,
-      "median_deal_size_m": 94.3,
-      "median_ev_ebitda": 7.9,
-      "p25_ev_ebitda": 5.0,
-      "p75_ev_ebitda": 11.0,
+      "total_deals": 143,
+      "recent_2024_count": 14,
+      "median_deal_size_m": 98.5,
+      "median_ev_ebitda": 8.0,
+      "p25_ev_ebitda": 5.1,
+      "p75_ev_ebitda": 10.8,
       "pe_share_pct": 10,
       "strategic_share_pct": 90,
       "smb_count": 42,
       "midmarket_count": 77,
-      "enterprise_count": 23
+      "enterprise_count": 24
     },
     "specialty-retail": {
       "total_deals": 239,
@@ -1085,5 +1085,5 @@
     }
   },
   "schema_version": "1.0",
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-11-13"
 }

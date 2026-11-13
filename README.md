@@ -3,7 +3,7 @@
 [![Dataset DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20398222-blue)](https://doi.org/10.5281/zenodo.20398222)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 
-**Data as of October 2026** (generated 2026-10-30; refreshed weekly) · 21,349 unique completed transactions · 107 sub-verticals in the database, 44 with at least one published cell (n >= 10) · deals 2018-2026
+**Data as of October 2026** (generated 2026-10-30; refreshed weekly) · 21,352 unique completed transactions · 107 sub-verticals in the database, 44 with at least one published cell (n >= 10) · deals 2018-2026
 
 **An open, continuously-updated index of real-world M&A valuation multiples** (EV/EBITDA and EV/Revenue), broken out by **sub-vertical** and **enterprise-value bracket**. Built and maintained by [ExitValue.ai](https://exitvalue.ai).
 
@@ -11,7 +11,7 @@
 
 > Every number below is an **aggregate median of disclosed M&A transactions** — not an estimate, rule of thumb, or imputed value. Each published cell requires **at least 10 disclosed deals** (`n >= 10`). Outliers are excluded (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]).
 
-- **Coverage:** 21,349 unique completed transactions across 107 sub-verticals; 11,189 with disclosed EV/EBITDA, 20,597 with disclosed EV/Revenue.
+- **Coverage:** 21,352 unique completed transactions across 107 sub-verticals; 11,190 with disclosed EV/EBITDA, 20,600 with disclosed EV/Revenue.
 - **Published cells:** 61 EV/EBITDA + 118 EV/Revenue across 44 sub-verticals (the 44 of 107 with at least one cell of n >= 10).
 - **Source window:** 2018-2026 (deals post-2018, from a licensed M&A transaction database, SEC EDGAR filings, and verified press releases).
 - **Last updated:** 2026-10-30 (data as of October 2026).
