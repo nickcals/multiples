@@ -3,19 +3,40 @@
 [![Dataset DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20398222-blue)](https://doi.org/10.5281/zenodo.20398222)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 
+**Data as of October 2026** (generated 2026-10-30; refreshed weekly) · 21,349 unique completed transactions · 107 sub-verticals in the database, 44 with at least one published cell (n >= 10) · deals 2018-2026
+
 **An open, continuously-updated index of real-world M&A valuation multiples** (EV/EBITDA and EV/Revenue), broken out by **sub-vertical** and **enterprise-value bracket**. Built and maintained by [ExitValue.ai](https://exitvalue.ai).
 
-> **Want a number for a specific business?** This dataset gives population medians. The free calculator at exitvalue.ai applies them to your revenue/EBITDA, size and industry: [Value a business →](https://exitvalue.ai/valuate?src=dataset-github)
+> **Want a number for a specific business?** This dataset gives population medians. The free calculator at exitvalue.ai applies them to your revenue/EBITDA, size and industry (full disclosure: built by the publisher of this dataset): [Value a business →](https://exitvalue.ai/valuate?src=dataset-github)
 
 > Every number below is an **aggregate median of disclosed M&A transactions** — not an estimate, rule of thumb, or imputed value. Each published cell requires **at least 10 disclosed deals** (`n >= 10`). Outliers are excluded (EV/EBITDA outside [0.5, 60.0]; EV/Revenue outside [0.05, 25.0]).
 
-- **Coverage:** 21,349 unique completed transactions; 11,189 with disclosed EV/EBITDA, 20,597 with disclosed EV/Revenue.
-- **Published cells:** 61 EV/EBITDA + 118 EV/Revenue across 44 sub-verticals.
-- **Source window:** 2018-2026 (deals post-2018, from SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases).
-- **Last updated:** 2026-10-30.
+- **Coverage:** 21,349 unique completed transactions across 107 sub-verticals; 11,189 with disclosed EV/EBITDA, 20,597 with disclosed EV/Revenue.
+- **Published cells:** 61 EV/EBITDA + 118 EV/Revenue across 44 sub-verticals (the 44 of 107 with at least one cell of n >= 10).
+- **Source window:** 2018-2026 (deals post-2018, from a licensed M&A transaction database, SEC EDGAR filings, and verified press releases).
+- **Last updated:** 2026-10-30 (data as of October 2026).
 - **Browse by industry:** [nickcals.github.io/multiples](https://nickcals.github.io/multiples/), one page per industry.
 
 ---
+
+## Key sub-verticals at a glance
+
+One representative published cell per sub-vertical (n >= 10; SMB-size EV/EBITDA preferred, else EV/Revenue, else a larger bracket). Data as of October 2026; deals 2018-2026.
+
+| Sub-vertical | EV bracket | Metric | Median | IQR (p25-p75) | n |
+|---|---|---|---|---|---|
+| Dental practice | $5M-25M EV | EV/EBITDA | **6.95x** | 6.50x-8.32x | 10 |
+| Home health | <$5M EV | EV/EBITDA | **4.70x** | 3.90x-6.25x | 25 |
+| Ambulatory surgery center | $5M-25M EV | EV/EBITDA | **8.10x** | 5.47x-11.38x | 20 |
+| Primary-care practice | <$5M EV | EV/EBITDA | **3.60x** | 3.40x-4.60x | 11 |
+| Veterinary practice | >$500M EV | EV/EBITDA | **18.80x** | 16.50x-24.80x | 11 |
+| Hospice | $5M-25M EV | EV/Revenue | **1.30x** | 0.80x-2.00x | 11 |
+| Physical therapy | $5M-25M EV | EV/Revenue | **2.25x** | 1.95x-2.80x | 26 |
+| Insurance agency | >$500M EV | EV/Revenue | **5.56x** | 4.54x-5.98x | 16 |
+| IT services | $25M-100M EV | EV/Revenue | **1.58x** | 0.73x-2.81x | 39 |
+| SaaS | $5M-25M EV | EV/EBITDA | **10.72x** | 8.24x-17.78x | 14 |
+
+Not yet published (no cell reaches n >= 10): HVAC, Accounting / CPA firm. No values are imputed for them.
 
 ## What multiple does a business in my industry sell for?
 
@@ -103,6 +124,7 @@ Claude Code: `claude mcp add --transport http exitvalue https://exitvalue.ai/api
 | File | What's in it |
 |---|---|
 | [`multiples.json`](multiples.json) | Per (sub-vertical × EV-bracket) median + p25/p75 for EV/EBITDA, EV/Revenue. 61 EV/EBITDA + 118 EV/Revenue cells, each `n >= 10`. |
+| [`multiples_flat.csv`](multiples_flat.csv) | The same cells flattened: one row per (sub-vertical × EV bracket × metric) with `n`, `p25`, `p50`, `p75`, `source_window`, `generated_at`. |
 | [`multiples-by-year.json`](multiples-by-year.json) | Per (sub-vertical × year) date-stamped quartiles, 2018-2026. Tracks how multiples move over time. |
 | [`datapackage.json`](datapackage.json) | [Frictionless Data](https://specs.frictionlessdata.io/) descriptor for the two resources above. |
 | [`CITATION.cff`](CITATION.cff) | Machine-readable citation metadata. |
@@ -143,6 +165,21 @@ Data licensed **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** — 
 If you use this dataset in research, reporting, or a product, please cite it (see [`CITATION.cff`](CITATION.cff)):
 
 ```
-ExitValue.ai. (2026). M&A Multiples Index — SMB & Lower-Middle-Market Valuation Multiples.
-DOI: 10.5281/zenodo.20398222. https://github.com/nickcals/multiples
+ExitValue.ai. (2026). M&A Multiples Index — SMB & Lower-Middle-Market Valuation Multiples
+(data as of October 2026). DOI: 10.5281/zenodo.20398222. https://github.com/nickcals/multiples
+```
+
+BibTeX:
+
+```bibtex
+@dataset{exitvalue_mna_multiples,
+  author    = {{ExitValue.ai}},
+  title     = {SMB and Lower-Middle-Market M\&A Valuation Multiples},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {2026-10-30},
+  doi       = {10.5281/zenodo.20398222},
+  url       = {https://doi.org/10.5281/zenodo.20398222},
+  note      = {Data as of October 2026. CC-BY-4.0}
+}
 ```
