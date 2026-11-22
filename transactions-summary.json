@@ -1,14 +1,14 @@
 {
   "name": "ExitValue.ai M&A Transaction Database \u2014 Aggregate Summary",
-  "description": "Anonymized aggregate statistics from 21,352 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
+  "description": "Anonymized aggregate statistics from 21,366 unique completed M&A transactions across 107 sub-verticals. No individual deal records; this file is the public summary for AI search engine citation and Google Dataset Search. Full methodology at https://exitvalue.ai/methodology.",
   "creator": "ExitValue.ai",
   "url": "https://exitvalue.ai/methodology",
   "license": "https://exitvalue.ai/terms",
   "citation": "ExitValue.ai. (2026). M&A Transaction Database. https://exitvalue.ai/methodology",
   "metrics": {
-    "total_unique_transactions": 21352,
-    "deals_with_disclosed_ev_ebitda": 11190,
-    "deals_with_disclosed_ev_revenue": 20600,
+    "total_unique_transactions": 21366,
+    "deals_with_disclosed_ev_ebitda": 11199,
+    "deals_with_disclosed_ev_revenue": 20610,
     "year_range": [
       1977,
       2026
@@ -26,6 +26,19 @@
       "p75_ev_ebitda": 14.4,
       "pe_share_pct": 0,
       "strategic_share_pct": 100,
+      "smb_count": 0,
+      "midmarket_count": 0,
+      "enterprise_count": 3
+    },
+    "accounting-cpa": {
+      "total_deals": 3,
+      "recent_2024_count": 2,
+      "median_deal_size_m": 2000.0,
+      "median_ev_ebitda": 11.0,
+      "p25_ev_ebitda": 10.9,
+      "p75_ev_ebitda": 13.0,
+      "pe_share_pct": 100,
+      "strategic_share_pct": 0,
       "smb_count": 0,
       "midmarket_count": 0,
       "enterprise_count": 3
@@ -200,16 +213,16 @@
       "enterprise_count": 29
     },
     "digital-media": {
-      "total_deals": 78,
-      "recent_2024_count": 3,
-      "median_deal_size_m": 268.0,
-      "median_ev_ebitda": 10.3,
-      "p25_ev_ebitda": 6.3,
+      "total_deals": 79,
+      "recent_2024_count": 4,
+      "median_deal_size_m": 275.0,
+      "median_ev_ebitda": 10.4,
+      "p25_ev_ebitda": 6.4,
       "p75_ev_ebitda": 16.5,
       "pe_share_pct": 12,
       "strategic_share_pct": 88,
       "smb_count": 15,
-      "midmarket_count": 31,
+      "midmarket_count": 32,
       "enterprise_count": 32
     },
     "durable-medical-equipment": {
@@ -460,29 +473,29 @@
       "enterprise_count": 12
     },
     "industrial-equipment": {
-      "total_deals": 323,
-      "recent_2024_count": 32,
-      "median_deal_size_m": 185.0,
+      "total_deals": 324,
+      "recent_2024_count": 33,
+      "median_deal_size_m": 184.3,
       "median_ev_ebitda": 9.7,
       "p25_ev_ebitda": 7.0,
-      "p75_ev_ebitda": 12.4,
+      "p75_ev_ebitda": 12.3,
       "pe_share_pct": 15,
       "strategic_share_pct": 85,
       "smb_count": 55,
-      "midmarket_count": 182,
+      "midmarket_count": 183,
       "enterprise_count": 86
     },
     "infrastructure": {
-      "total_deals": 9,
-      "recent_2024_count": 1,
-      "median_deal_size_m": 90.0,
-      "median_ev_ebitda": 17.3,
-      "p25_ev_ebitda": 6.6,
-      "p75_ev_ebitda": 28.8,
+      "total_deals": 10,
+      "recent_2024_count": 2,
+      "median_deal_size_m": 223.8,
+      "median_ev_ebitda": 13.8,
+      "p25_ev_ebitda": 6.5,
+      "p75_ev_ebitda": 28.0,
       "pe_share_pct": 0,
       "strategic_share_pct": 100,
       "smb_count": 1,
-      "midmarket_count": 4,
+      "midmarket_count": 5,
       "enterprise_count": 4
     },
     "insurance-agency": {
@@ -603,17 +616,17 @@
       "enterprise_count": 69
     },
     "oil-gas-services": {
-      "total_deals": 1004,
-      "recent_2024_count": 41,
+      "total_deals": 1006,
+      "recent_2024_count": 43,
       "median_deal_size_m": 226.1,
-      "median_ev_ebitda": 7.4,
+      "median_ev_ebitda": 7.3,
       "p25_ev_ebitda": 5.0,
       "p75_ev_ebitda": 11.0,
       "pe_share_pct": 4,
       "strategic_share_pct": 96,
       "smb_count": 170,
-      "midmarket_count": 469,
-      "enterprise_count": 365
+      "midmarket_count": 470,
+      "enterprise_count": 366
     },
     "optometry-practice": {
       "total_deals": 5,
@@ -785,9 +798,9 @@
       "enterprise_count": 49
     },
     "other-professional-services": {
-      "total_deals": 257,
-      "recent_2024_count": 11,
-      "median_deal_size_m": 116.0,
+      "total_deals": 258,
+      "recent_2024_count": 12,
+      "median_deal_size_m": 117.8,
       "median_ev_ebitda": 10.0,
       "p25_ev_ebitda": 6.5,
       "p75_ev_ebitda": 13.7,
@@ -795,7 +808,7 @@
       "strategic_share_pct": 87,
       "smb_count": 64,
       "midmarket_count": 116,
-      "enterprise_count": 77
+      "enterprise_count": 78
     },
     "other-technology": {
       "total_deals": 475,
@@ -928,16 +941,16 @@
       "enterprise_count": 43
     },
     "saas": {
-      "total_deals": 413,
-      "recent_2024_count": 17,
-      "median_deal_size_m": 115.1,
-      "median_ev_ebitda": 14.7,
+      "total_deals": 414,
+      "recent_2024_count": 18,
+      "median_deal_size_m": 114.5,
+      "median_ev_ebitda": 14.8,
       "p25_ev_ebitda": 8.7,
       "p75_ev_ebitda": 25.3,
       "pe_share_pct": 16,
       "strategic_share_pct": 84,
       "smb_count": 99,
-      "midmarket_count": 207,
+      "midmarket_count": 208,
       "enterprise_count": 107
     },
     "software-enterprise": {
@@ -1085,5 +1098,5 @@
     }
   },
   "schema_version": "1.0",
-  "last_updated": "2026-11-13"
+  "last_updated": "2026-11-22"
 }
